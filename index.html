@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simon Bengtsson</title>
+    <link rel="stylesheet" href="src/styles/main.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Noto+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="light-theme dark-theme" id="body">
+    <div class="content-wrapper">
+        <div class="content-container scrollbar">
+
+            <!-- header section -->
+
+            <header class="header">
+                <div class="logo-wrapper">
+                    <h1 class="logo">Simon Bengtsson</h1>
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <nav class="navbar">
+                    <ul class="menu">
+                        <li class="nav-items">
+                            <a href="#home" class="nav-item">Home</a>
+                        </li>
+                        <li class="nav-items">
+                            <a href="#about" class="nav-item">About</a>
+                        </li>
+                        <li class="nav-items">
+                            <a href="#skills" class="nav-item">Skills</a>
+                        </li>
+                        <li class="nav-items">
+                            <a href="#projects" class="nav-item">Projects</a>
+                        </li>
+                        <li class="nav-items">
+                            <a href="#contact" class="nav-item">Contact</a>
+                        </li>
+                    </ul>
+
+                    <button class="menu-wrapper"><img src="./src/icons/menu_accent.png" alt="menu icon"
+                            id="menu-btn"></button>
+                </nav>
+            </header>
+
+            <!-- hero section -->
+
+            <div class="hero" id="home">
+                <div class="hero-left">
+                    <p>Hello,</p>
+                    <h2 class="hero-name">I'm Simon Bengtsson</h2>
+                    <h3 class="hero-title">Front End <span>Developer</span></h3>
+                    <div class="hero-btn-wrapper">
+                        <button class="contact-btn"><a href="#contact">Get in touch</a></button>
+                        <button class="download-btn"><a href="./src/images/cv-simon-2022.pdf" download="">Download
+                                CV</a></button>
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <img src="/portfolio/portfolio-2023/src/images/profile_picture.png" alt="Picture of author" class="hero-img">
+                </div>
+            </div>
+
+            <main class="about-me" id="about">
+                <h2 class="about-heading">about me</h2>
+                <div class="about-para">
+                    <p>I am a 24 year old Front End Developer from Malmö, Sweden. Currently doing my second term as a
+                        student at Medieinstitutet, Malmö.
+                        Got an unmatched passion for programming, more towards Front End stuff. I love to design, build
+                        and just write code. Also likes
+                        football and coffee. </p>
+                </div>
+            </main>
+
+            <section class="my-skills" id="skills">
+                <h2 class="skills-heading">skills</h2>
+                <div class="skills-icons">
+                    <h3 class="skills-sub-header">Front End</h3>
+                    <div class="skills-front-end">
+
+                        <div class="skills-card" id="html">
+                            <img src="./src/icons/html-5.png" alt="html-5 icon">
+                            <p class="skills-name">HTML</p>
+                        </div>
+
+                        <div class="skills-card" id="css">
+                            <img src="./src/icons/css-3.png" alt="css icon">
+                            <p class="skills-name">CSS</p>
+                        </div>
+
+                        <div class="skills-card" id="sass">
+                            <img src="./src/icons/sass.png" alt="sass icon">
+                            <p class="skills-name">Sass</p>
+                        </div>
+
+                        <div class="skills-card" id="bootstrap">
+                            <img src="./src/icons/bootstrap.png" alt="bootstrap icon">
+                            <p class="skills-name">Bootstrap</p>
+                        </div>
+
+                        <div class="skills-card" id="javascript">
+                            <img src="./src/icons/js.png" alt="javascript icon">
+                            <p class="skills-name">JavaScript</p>
+                        </div>
+
+                        <div class="skills-card" id="typescript">
+                            <img src="./src/icons/typescript.png" alt="typescript icon">
+                            <p class="skills-name">TypeScript</p>
+                        </div>
+                    </div>
+
+                    <h3 class="skills-sub-header">Back End</h3>
+                    <div class="skills-back-end">
+
+                        <div class="skills-card" id="node">
+                            <img src="./src/icons/node.png" alt="node icon">
+                            <p class="skills-name">Node.js</p>
+                        </div>
+
+                        <div class="skills-card" id="mysql">
+                            <img src="./src/icons/mysql.png" alt="sql icon">
+                            <p class="skills-name">MySQL</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="work-container" id="projects">
+                <h2 class="projects-heading">projects
+                </h2>
+                <div class="work">
+                    <div class="work-image-wrapper">
+                        <img src="./src/images/bortakvall.PNG" alt="webshop project" class="projects-img">
+                    </div>
+                    <div class="work-description">
+                        <h2 class="work-heading">Webshop</h2>
+                        <p>Webshop with 100+ products. Seamless throughout your shopping journey.</p>
+                        <div class="built-with">
+                            <p class="tag">HTML</p>
+                            <p class="tag">CSS</p>
+                            <p class="tag">TypeScript</p>
+                            <p class="tag">Fetch API</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="projects-btn">Git Repo</button>
+                            <button class="projects-btn">Live Site</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <div class="work-image-wrapper">
+                        <img src="./src/images/flag_quiz.png" alt="quiz project" class="projects-img">
+                    </div>
+                    <div class="work-description">
+                        <h2 class="work-heading">Quiz</h2>
+                        <p>Test your knowledge and guess the flag.</p>
+                        <div class="built-with">
+                            <p class="tag">HTML</p>
+                            <p class="tag">CSS</p>
+                            <p class="tag">JavaScript</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="projects-btn">Git Repo</button>
+                            <button class="projects-btn">Live Site</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact" id="contact">
+                <h2 class="contact-header">Connect with me<span class="dot">.</span></h2>
+                <div class="information">
+
+                    <a href="https://www.linkedin.com/in/simon-bengtsson-93253815b/" target="_blank"><img
+                            src="./src/icons/linkedin.png" alt="linkedin logo" class="some-icon"></a>
+                    <a href="https://github.com/s1monbengtsson" target="_blank"><img src="./src/icons/github_accent.png"
+                            alt="github logo" class="some-icon"></a>
+                    <p>or</p>
+                    <p>dev.simon.bengtsson@gmail.com</p>
+                </div>
+            </section>
+
+
+
+            <p class=credits>Icons by Flaticon and Freepik</p>
+        </div>
+    </div>
+
+    <script type="module" src="./src/js/app.js"></script>
+</body>
+
+</html>

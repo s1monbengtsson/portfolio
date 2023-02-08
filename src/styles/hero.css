@@ -1,0 +1,100 @@
+/* styling for hero  */
+
+.hero {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    height: 80%;
+    margin-top: 68px;
+    margin: 68px auto 0 auto;
+
+}
+
+.hero-left {
+    width: 60%;
+    margin-left: 3rem;
+}
+
+.hero-right {
+    width: 40%;
+    text-align: center;
+
+}
+
+.hero-img {
+    width: 80%;
+    border-radius: 5px;
+}
+
+.hero-name {
+    font-size: 3.5rem;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-title>span {
+    font-size: 3rem;
+}
+
+.hero-btn-wrapper {
+    margin-top: 1rem;
+}
+
+.hero-left button {
+    border: none;
+    border-radius: .2rem;
+    padding: .9rem 1.5rem;
+    font-weight: bold;
+
+}
+
+.contact-btn {
+    background: var(--accent-color);
+    color: var(--primary-color);
+}
+
+.download-btn {
+    background: var(--button-color);
+    color: var(--primary-color);
+}
+
+/* about section */
+
+.about-me {
+    border-top: 1.5px solid var(--secondary-color);
+    border-bottom: 1.5px solid var(--secondary-color);
+    width: 80%;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+.about-heading {
+    text-align: end;
+    font-size: 5rem;
+    color: var(--heading-color);
+    margin-bottom: 2rem;
+}
+
+.about-para {
+    margin: 0 auto;
+    width: 50%;
+    line-height: 1.6;
+}
+
+.about-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    border-radius: 50%;
+}
+
+
+.image {
+    aspect-ratio: 1;
+    width: 80%;
+    border-radius: 50%;
+}

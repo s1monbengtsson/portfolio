@@ -1,0 +1,230 @@
+.projects {
+    width: 90%;
+    height: 100%;
+    text-align: center;
+    border-bottom: 1.5px solid var(--secondary-color);
+    margin: 0 auto;
+}
+
+.cards-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 500px;
+    width: 80%;
+    margin: 0 auto;
+    gap: .5rem;
+
+}
+
+.projects-heading {
+    padding-bottom: 1rem;
+    text-align: end;
+    color: var(--heading-color);
+    font-size: 5rem;
+}
+
+.card {
+    background-color: var(--card-color);
+    width: 100%;
+    height: 100%;
+    perspective: 700px;
+    margin: 0 auto;
+    border-radius: .8rem;
+}
+
+#webshop {
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+#barbershop {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+#quiz {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.card-inner {
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.card-inner.flipped {
+    transform: rotateY(180deg);
+}
+
+.card-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: rotateX(0deg);
+    overflow: hidden;
+    border: 1rem;
+    box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
+    border-radius: .8rem;
+}
+
+.card-front {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-content-wrapper {
+    margin: 0 1.5rem;
+}
+
+.card-content-wrapper>h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.card-content-wrapper>p {
+    color: var(--secondary-color);
+}
+
+
+.project-btn {
+    margin-top: 1rem;
+    border: none;
+    border-radius: .2rem;
+    padding: .7rem 1.5rem;
+    font-weight: bold;
+    background-color: var(--button-color);
+    border: 1px solid var(--button-color);
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.card-back {
+    transform: rotateY(180deg);
+}
+
+.card-content {
+    width: 100%;
+    height: 100%;
+
+}
+
+.card-header {
+    position: relative;
+    padding: 1.5rem;
+    height: 20%;
+    margin-bottom: 2rem;
+}
+
+.card-header::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    border-radius: 0 0 40% 0;
+}
+
+.card-body {
+    margin: .5rem;
+    height: 100%;
+}
+
+.project-img {
+    height: 30%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.card-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+
+.work-container {
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 1.5px solid var(--secondary-color);
+    padding-bottom: 2rem;
+}
+
+.work {
+    width: 100%;
+    display: flex;
+    background-color: var(--card-color);
+    margin: 1rem auto;
+    border: 1rem;
+    box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
+    border-radius: .3rem;
+}
+
+.work-image-wrapper {
+    width: 50%;
+    margin: 2rem 1rem;
+}
+
+.projects-img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: .3rem;
+
+}
+
+.work-heading {
+    margin-bottom: 1rem;
+}
+
+.work-description {
+    width: 50%;
+    text-align: center;
+    margin: 2rem;
+}
+
+.built-with {
+    display: flex;
+    justify-content: center;
+}
+
+.tag {
+    font-size: .6rem;
+    margin: 1rem .5rem;
+    padding: .3rem 1rem;
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.card-footer {
+    justify-content: center;
+}
+
+.projects-btn {
+    margin: 0 .5rem;
+    background-color: var(--secondary-color);
+    color: var(--bg-color);
+    border: none;
+    border-radius: .2rem;
+    padding: .7rem 1.5rem;
+    font-weight: bold;
+    background-color: var(--button-color);
+    border: 1px solid var(--button-color);
+    color: var(--primary-color);
+    cursor: pointer;
+}

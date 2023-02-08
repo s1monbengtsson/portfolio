@@ -1,0 +1,54 @@
+/* General styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-image: var(--bg-body);
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+h1,
+h2,
+h3,
+li,
+p {
+    color: var(--primary-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+span {
+    color: var(--accent-color);
+}
+
+.content-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 10px 40px 2px black;
+    border-radius: 5px;
+    width: 80%;
+    height: 80%;
+    max-width: 1300px;
+    background: var(--bg-color);
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.content-container {
+    height: 100%;
+    overflow-y: scroll;
+}
