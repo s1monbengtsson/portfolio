@@ -32,21 +32,7 @@ span {
     color: var(--accent-color);
 }
 
-.content-wrapper {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 10px 10px 40px 2px black;
-    border-radius: 5px;
-    width: 80%;
-    height: 80%;
-    max-width: 1300px;
-    background: var(--bg-color);
-    border-radius: 5px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.07);
-}
+
 
 .content-container {
     height: 100%;
