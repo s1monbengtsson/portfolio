@@ -5,6 +5,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+    scroll-padding: 10%;
 }
 
 body {
@@ -36,5 +38,4 @@ span {
 
 .content-container {
     height: 100%;
-    overflow-y: scroll;
 }

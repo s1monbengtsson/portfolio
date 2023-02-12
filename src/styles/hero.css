@@ -4,20 +4,18 @@
     display: flex;
     width: 80%;
     align-items: center;
-    height: 70vh;
-    margin: 68px auto 0 auto;
+    height: 80vh;
+    margin: 0 auto;
 
 }
 
 .hero-left {
     width: 60%;
-    margin-left: 3rem;
     text-align: center;
 }
 
 .hero-right {
     width: 40%;
-    margin-right: 3rem;
     text-align: center;
 
 }
@@ -41,7 +39,7 @@
 }
 
 .hero-btn-wrapper {
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 .hero-left button {
@@ -55,16 +53,33 @@
 .contact-btn {
     background: #f97460;
     color: var(--primary-color);
+    padding: .8rem;
+    border-radius: .2rem;
+    background: linear-gradient(to left, #f97460 50%, #272936 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+}
+
+.contact-btn:hover {
+    background-position: left;
+    color: #fefefe;
 }
 
 .download-btn {
     background: var(--button-color);
     color: var(--primary-color);
+    padding: .8rem;
+    border-radius: .2rem;
+    background: linear-gradient(to left, var(--button-color) 50%, #272936 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
 }
 
-button > a {
-
+.download-btn:hover {
+    background-position: left;
+    color: #fefefe;
 }
+
 
 /* about section */
 
@@ -81,7 +96,7 @@ button > a {
     text-align: end;
     font-size: 5rem;
     color: var(--heading-color);
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .about-para {
