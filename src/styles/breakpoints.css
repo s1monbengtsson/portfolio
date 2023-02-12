@@ -15,7 +15,8 @@
     }
 
     .about-me {
-        width: 100%;
+        padding-right: 0;
+
     }
 
     .my-skills {
@@ -54,7 +55,7 @@
         top: 10vh;
         left: 0;
         height: 90vh;
-        background-color: var(--accent-color);
+        background-color: #272936;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -62,6 +63,7 @@
 
     .nav-item {
         font-size: 2rem;
+        color: #fefefe;
     }
 }
 
@@ -72,6 +74,7 @@
         height: auto;
         padding: 2rem 0;
         width: 100%;
+        margin-top: 10%;
     }
 
     .hero-name {
@@ -85,7 +88,7 @@
     }
 
     .hero-right {
-        width: 50%;
+        width: 60%;
         margin: 2rem auto;
 
     }
@@ -96,7 +99,7 @@
 
     .skills-front-end {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .skills-back-end {
@@ -106,7 +109,10 @@
 
     .skills-card {
         margin: .5rem auto;
-        width: 80%;
+    }
+
+    .skills-card > img {
+        height: 32px;
     }
 
     .work {
@@ -114,15 +120,20 @@
         flex-direction: column;
         align-items: center;
         width: 95%;
-        margin-bottom: 2rem;
+        margin: 1rem auto;
+        height: fit-content;
     }
 
     .work-image-wrapper {
         width: 100%;
     }
 
+    .work-description {
+        width: 80%;
+    }
+
     .projects-btn {
-        padding: .7rem 3rem;
+        padding: .4rem 1rem;
     }
 
     .contact {
@@ -134,6 +145,17 @@
     .projects-heading {
         font-size: 3rem;
     }
+}
 
-
+@media screen and (max-width: 375px) {
+    .skills-front-end {
+        grid-template-columns: repeat(2, 1fr);
+        width: 80%;
+        margin:0 auto;
+      }
+      .skills-back-end {
+        grid-template-columns: repeat(2, 1fr);
+        width: 80%;
+        margin:0 auto;
+      }
 }
