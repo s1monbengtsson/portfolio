@@ -4,9 +4,8 @@
     display: flex;
     width: 80%;
     align-items: center;
-    height: 80vh;
-    margin: 0 auto;
-
+    height: 60vh;
+    margin: 10% auto;
 }
 
 .hero-left {
@@ -17,7 +16,6 @@
 .hero-right {
     width: 40%;
     text-align: center;
-
 }
 
 .hero-img {
@@ -47,22 +45,21 @@
     border-radius: .2rem;
     padding: .9rem 1.5rem;
     font-weight: bold;
-
 }
 
 .contact-btn {
-    background: #f97460;
+    background: var(--accent-orange);
     color: var(--primary-color);
     padding: .8rem;
     border-radius: .2rem;
-    background: linear-gradient(to left, #f97460 50%, #272936 50%) right;
+    background: linear-gradient(to left, var(--accent-orange) 50%, var(--accent-dark) 50%) right;
     background-size: 200%;
     transition: .5s ease-out;
 }
 
 .contact-btn:hover {
     background-position: left;
-    color: #fefefe;
+    color: var(--header-color);
 }
 
 .download-btn {
@@ -70,56 +67,12 @@
     color: var(--primary-color);
     padding: .8rem;
     border-radius: .2rem;
-    background: linear-gradient(to left, var(--button-color) 50%, #272936 50%) right;
+    background: linear-gradient(to left, var(--button-color) 50%, var(--accent-dark) 50%) right;
     background-size: 200%;
     transition: .5s ease-out;
 }
 
 .download-btn:hover {
     background-position: left;
-    color: #fefefe;
-}
-
-
-/* about section */
-
-.about-me {
-    border-top: 1.5px solid var(--secondary-color);
-    border-bottom: 1.5px solid var(--secondary-color);
-    background-color: #272936;
-    width: 100%;;
-    margin: 0 auto;
-    padding: 2rem 1rem;
-}
-
-.about-heading {
-    text-align: end;
-    font-size: 5rem;
-    color: var(--heading-color);
-    margin-bottom: 1rem;
-}
-
-.about-para {
-    margin: 0 auto;
-    width: 50%;
-    line-height: 1.6;
-}
-
-.about-para p {
-    color: #fefefe;
-}
-
-.about-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40%;
-    border-radius: 50%;
-}
-
-
-.image {
-    aspect-ratio: 1;
-    width: 80%;
-    border-radius: 50%;
+    color: var(--header-color);
 }

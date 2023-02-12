@@ -1,8 +1,7 @@
 .my-skills {
     width: 80%;
     margin: 2rem auto;
-    border-bottom: 1.5px solid var(--secondary-color);
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
 }
 
 .skills-heading {

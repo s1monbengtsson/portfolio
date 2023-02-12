@@ -1,0 +1,39 @@
+/* about section */
+
+.about-me {
+    background-color: var(--accent-dark);
+    width: 100%;;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.about-heading {
+    text-align: end;
+    font-size: 5rem;
+    color: var(--heading-color);
+    margin-bottom: 1rem;
+}
+
+.about-para {
+    margin: 0 auto;
+    width: 50%;
+    line-height: 1.6;
+}
+
+.about-para p {
+    color: var(--header-color);
+}
+
+.about-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    border-radius: 50%;
+}
+
+.image {
+    aspect-ratio: 1;
+    width: 80%;
+    border-radius: 50%;
+}

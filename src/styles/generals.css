@@ -16,17 +16,8 @@ body {
     position: relative;
 }
 
-h1,
-h2,
-h3,
-li,
-p {
-    color: var(--primary-color);
-}
-
 a {
     text-decoration: none;
-    color: var(--primary-color);
     font-weight: bold;
 }
 
@@ -34,8 +25,15 @@ span {
     color: var(--accent-color);
 }
 
-
-
-.content-container {
-    height: 100%;
+.light-theme {
+    --header-color: #fefefe;
+    --bg-body: #e2e2e2;
+    --bg-color: #fefefe;
+    --primary-color: #000000;
+    --secondary-color: #4b4a4a;
+    --button-color: #c2c1c1;
+    --accent-orange: #f97460;
+    --accent-dark: #272936;
+    --card-color: #9290901a;
+    --heading-color: #747171c1;
 }

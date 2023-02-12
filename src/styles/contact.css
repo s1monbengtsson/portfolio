@@ -11,14 +11,14 @@
 }
 
 .span-bg {
-    background-color: #272936;
-    color: #fefefe;
+    background-color: var(--accent-dark);
+    color: var(--header-color);
     padding: 0 .5rem;
 }
 
 .dot {
     font-size: 5rem;
-    color: #f97460;
+    color: var(--accent-orange);
 }
 
 .information {
@@ -34,5 +34,5 @@
     text-align: end;
     font-size: .7rem;
     margin-right: 0.3rem;
-    color: grey;
+    color: var(--heading-color);
 }
