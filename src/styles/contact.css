@@ -10,9 +10,15 @@
     text-align: center;
 }
 
+.span-bg {
+    background-color: #214554;
+    color: #fefefe;
+    padding: 0 .5rem;
+}
+
 .dot {
     font-size: 5rem;
-    color: #1f6dff;
+    color: #f97460;
 }
 
 .information {

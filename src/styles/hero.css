@@ -4,8 +4,7 @@
     display: flex;
     width: 80%;
     align-items: center;
-    height: 80%;
-    margin-top: 68px;
+    height: 70vh;
     margin: 68px auto 0 auto;
 
 }
@@ -13,10 +12,12 @@
 .hero-left {
     width: 60%;
     margin-left: 3rem;
+    text-align: center;
 }
 
 .hero-right {
     width: 40%;
+    margin-right: 3rem;
     text-align: center;
 
 }
@@ -52,7 +53,7 @@
 }
 
 .contact-btn {
-    background: var(--accent-color);
+    background: #f97460;
     color: var(--primary-color);
 }
 
@@ -61,14 +62,19 @@
     color: var(--primary-color);
 }
 
+button > a {
+
+}
+
 /* about section */
 
 .about-me {
     border-top: 1.5px solid var(--secondary-color);
     border-bottom: 1.5px solid var(--secondary-color);
-    width: 80%;
+    background-color: #272936;
+    width: 100%;;
     margin: 0 auto;
-    padding: 3rem 0;
+    padding: 2rem 1rem;
 }
 
 .about-heading {
@@ -82,6 +88,10 @@
     margin: 0 auto;
     width: 50%;
     line-height: 1.6;
+}
+
+.about-para p {
+    color: #fefefe;
 }
 
 .about-img {
