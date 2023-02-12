@@ -13,8 +13,3 @@ document.querySelectorAll('.nav-item').forEach(item => item.addEventListener('cl
     menu.classList.toggle('menu-display')
 }))
 
-// toggle between dark and light mode
-toggler.addEventListener('click', (e) => {
-    body.classList.toggle('light-theme')
-    console.log("toggling")
-})
