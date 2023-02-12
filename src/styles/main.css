@@ -7,36 +7,22 @@
 @import url("header.css");
 @import url("hero.css");
 @import url("skills.css");
-@import url("scrollbar.css");
 @import url("projects.css");
 @import url("contact.css");
 @import url("breakpoints.css");
 
-
-/* dark mode */
-
-.dark-theme {
-    --header-color: #4241411e;
-    --bg-body: linear-gradient(to top, #000000, #434343);
-    --bg-color: #ffffff09;
-    --primary-color: #fffcfc;
-    --secondary-color: #f5f5f5;
-    --button-color: #ffffff2c;
-    --accent-color: #1f6dff;
-    --heading-color: #ffffff6c;
-}
 
 /* light mode */
 
 .light-theme {
     --header-color: #4241411e;
     --bg-body: linear-gradient(to top, #ffffff, #e2e2e2);
-    --bg-color: #f3f3f3;
+    --bg-color: #fefefe;
     --primary-color: #000000;
     --secondary-color: #4b4a4a;
     --button-color: #c2c1c1;
-    --accent-color: #1f6dff;
+    --accent-color: #12abdb;
     --card-color: #9290901a;
-    --heading-color: #00000042;
+    --heading-color: #747171c1;
 
 }
