@@ -56,7 +56,8 @@
 
 .work-container {
 padding-bottom: 2rem;
-background-color: #f7f5f5;
+max-width: 1500px;
+margin: 0 auto;
 }
 
 .work-image-wrapper {

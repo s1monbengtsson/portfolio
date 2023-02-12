@@ -6,6 +6,7 @@
     align-items: center;
     height: 60vh;
     margin: 10% auto;
+    max-width: 1300px;
 }
 
 .hero-left {
