@@ -1,8 +1,8 @@
 .my-skills {
-    width: 80%;
-    margin: 2rem auto;
+    width: 100%;
     padding-bottom: 2rem;
     max-width: 1500px;
+    background-color: #222222;
 }
 
 .skills-heading {
@@ -19,6 +19,7 @@
 .skills-sub-header {
     font-size: 1.5rem;
     margin: 1rem 0 2rem;
+    color: var(--bg-color);
 }
 
 .skills-front-end {
@@ -49,4 +50,5 @@
 
 .skills-name {
     padding-top: 1.5rem;
+    color: var(--bg-color);
 }

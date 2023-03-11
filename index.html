@@ -53,8 +53,6 @@
                     <h3 class="hero-title">Frontend <span class="span-bg">Developer</span></h3>
                     <div class="hero-btn-wrapper">
                         <a href="#contact" class="contact-btn">Get in touch</a>
-                        <a href="./src/images/cv_simon_2023.pdf" class="download-btn" download="cv_simon_2023">Download
-                                CV</a>
                     </div>
                 </div>
                 <div class="hero-right">
@@ -115,13 +113,18 @@
                     <div class="skills-back-end">
 
                         <div class="skills-card" id="node">
-                            <img src="./src/icons/node.png" alt="node icon">
+                            <img src="./src/icons/node.png" alt="node.js icon">
                             <p class="skills-name">Node.js</p>
                         </div>
 
                         <div class="skills-card" id="mysql">
-                            <img src="./src/icons/mysql.png" alt="sql icon">
+                            <img src="./src/icons/mysql.png" alt="mysql icon">
                             <p class="skills-name">MySQL</p>
+                        </div>
+
+                        <div class="skills-card" id="mongodb">
+                            <img src="./src/icons/mongodb.png" alt="mongodb icon">
+                            <p class="skills-name">MongoDB</p>
                         </div>
                     </div>
                 </div>
@@ -130,42 +133,75 @@
             <section class="work-container" id="projects">
                 <h2 class="projects-heading">projects
                 </h2>
-                <div class="work">
-                    <div class="work-image-wrapper">
-                        <img src="./src/images/bortakvall.PNG" alt="webshop project" class="projects-img">
+                <div class="grid-layout">
+                    <div class="work grid-item-1">
+                        <div class="work-image-wrapper">
+                            <img src="./src/images/bortakvall.PNG" alt="webshop project" class="projects-img">
+                        </div>
+                        <div class="work-description">
+                            <h3 class="project-heading">Webshop with front- and backend.</h3>
+                            <div class="card-footer">
+                               <a href="https://classy-twilight-f4bf2d.netlify.app/" class="projects-btn" target="_blank
+                                    ">Live Site</a>
+                               <a href="https://github.com/s1monbengtsson/candyshop_api" class="projects-btn" target="_blank">Source Code</a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="work-description">
-                        <h3 class="project-heading">Webshop with front- and backend.</h3>
-                        <div class="built-with">
-                            <p class="tag">TypeScript</p>
-                            <p class="tag">Node.js</p>
-                            <p class="tag">MySQL</p>
+                    <div class="work grid-item-2">
+                        <div class="work-image-wrapper">
+                            <img src="./src/images/flag_quiz.png" alt="quiz project" class="projects-img">
                         </div>
-                        <div class="card-footer">
-                           <a href="https://classy-twilight-f4bf2d.netlify.app/" class="projects-btn" target="_blank
-                                ">Live Site</a>
-                           <a href="https://github.com/s1monbengtsson/candyshop_api" class="projects-btn" target="_blank">Git Repo</a>
+                        <div class="work-description">
+                            <h3 class="project-heading">Test your knowledge and guess the flag.</h3>
+                            <div class="card-footer">
+                                <a href="https://flag-guessr.netlify.app/" class="projects-btn" target="_blank
+                                    ">Live Site</a>
+                                <a href="https://github.com/s1monbengtsson/flag-quiz" class="projects-btn" target="_blank">Source Code</a>
+                            </div>
                         </div>
+                    </div>
+    
+                    <div class="work grid-item-3">
+                        <div class="work-image-wrapper">
+                            <img src="./src/images/ktv_lobby.png" alt="socket.io project" class="projects-img">
+                        </div>
+                        <div class="work-description">
+                            <h3 class="project-heading">Online multiplayer game using Websockets</h3>
+                            <div class="card-footer">
+                               <a href="https://ktv-grupp10.netlify.app/" class="projects-btn" target="_blank
+                                    ">Live Site</a>
+                               <a href="https://github.com/the-hive-resistance/fed22-api-ktv-grupp-10" class="projects-btn" target="_blank">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="work grid-item-4">
+                        <div class="work-image-wrapper">
+                            <img src="./src/images/photo_gallery.jpg" alt="backend gallery project" class="projects-img">
+                        </div>
+                        <div class="work-description">
+                            <h3 class="project-heading">Photo Gallery API with JWT Authentication</h3>
+                            <div class="card-footer">
+                               <a href="https://splendid-erin-sunbonnet.cyclic.app/" class="projects-btn" target="_blank
+                                    ">Live Site</a>
+                               <a href="https://github.com/s1monbengtsson/photo-gallery-api" class="projects-btn" target="_blank">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="work grid-item-5">
+                        <div class="project-description">
+                            <h3>Some of my latest work..</h3>
+                            <p>Frontend and Backend applications built using different techniques:</p>
+                            <div class="tag-container">
+                                <p class="techniques ts">Typescript</p><p class="techniques node">Node.js</p><p class="techniques js">Javascript</p><p class="techniques socket">Socket.io</p><p class="techniques primsma">Prisma</p>
+                            </div>
+                                
+                        </div>
+                        
                     </div>
                 </div>
-                <div class="work">
-                    <div class="work-image-wrapper">
-                        <img src="./src/images/flag_quiz.png" alt="quiz project" class="projects-img">
-                    </div>
-                    <div class="work-description">
-                        <h3 class="project-heading">Test your knowledge and guess the flag.</h3>
-                        <div class="built-with">
-                            <p class="tag">HTML</p>
-                            <p class="tag">CSS</p>
-                            <p class="tag">JavaScript</p>
-                        </div>
-                        <div class="card-footer">
-                            <a href="https://flag-guessr.netlify.app/" class="projects-btn" target="_blank
-                                ">Live Site</a>
-                            <a href="https://github.com/s1monbengtsson/flag-quiz" class="projects-btn" target="_blank">Git Repo</a>
-                        </div>
-                    </div>
-                </div>
+                
             </section>
 
             <section class="contact" id="contact">

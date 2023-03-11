@@ -8,11 +8,12 @@
 .contact-header {
     font-size: 3rem;
     text-align: center;
+    color: white;
 }
 
 .span-bg {
-    background-color: var(--accent-dark);
-    color: var(--header-color);
+    background-color: rgba(52, 51, 51, 0.664);
+    color: var(--accent-orange);
     padding: 0 .5rem;
 }
 

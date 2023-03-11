@@ -1,19 +1,66 @@
-.projects {
-    width: 90%;
-    height: 100%;
-    text-align: center;
+
+.work-container {
+    width: 100%;
+    padding-bottom: 2rem;
+    max-width: 1500px;
     margin: 0 auto;
+    background-color: var(--bg-color);
+    }
+
+.grid-layout {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-gap: 1rem;
 }
 
-.cards-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    height: 500px;
-    width: 80%;
-    margin: 0 auto;
-    gap: .5rem;
+.work {
+    width: 100%;
+    background-color: #272936;
+    border: 1rem;
+    box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
 }
+
+.grid-item-1 {
+    grid-row-start: 5;
+    grid-row-end: 9;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.grid-item-2 {
+    grid-row-start: 1;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.grid-item-3 {
+    grid-row-start: 3;
+    grid-row-end: 7;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.grid-item-4 {
+    grid-row-start: 7;
+    grid-row-end: 11;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.grid-item-5 {
+    grid-row-start: 4;
+    grid-row-end: 10;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    background-color: var(--bg-color);
+    box-shadow: none;
+}
+
+
 
 .projects-heading {
     padding-bottom: 1rem;
@@ -22,52 +69,19 @@
     font-size: 5rem;
 }
 
-.card {
-    width: 100%;
-    height: 100%;
-    perspective: 700px;
-    margin: 0 auto;
-    border-radius: .8rem;
+.work-image-wrapper {
+    height: 50%;
 }
 
-.project-img {
-    height: 30%;
+.projects-img {
+    height: 100%;
     width: 100%;
     object-fit: cover;
     object-position: top;
 }
 
-.card-footer {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
-}
-
-.work {
-    width: 100%;
-    height: 250px;
-    display: flex;
-    background-color: #272936;
-    margin: 1rem 0;
-    border: 1rem;
-    box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
-}
-
-.work-container {
-padding-bottom: 2rem;
-max-width: 1500px;
-margin: 0 auto;
-}
-
-.work-image-wrapper {
-    width: 40%;
-}
-
-.projects-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.projecs-img:hover{
+    transform: scale(1.4);
 }
 
 .project-heading {
@@ -76,46 +90,71 @@ margin: 0 auto;
 }
 
 .work-description {
-    width: 60%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     text-align: center;
-}
-
-
-.built-with {
-    display: flex;
-    justify-content: center;
-}
-
-.tag {
-    font-size: .6rem;
-    margin: 1rem .5rem;
-    padding: .3rem 1rem;
-    background-color: #f97460;
-    color: var(--primary-color);
-    font-weight: bold;
-    display: flex;
-    align-items: center;
+    height: 50%;
 }
 
 .projects-btn {
     margin: 0 .5rem;
-    background-color: var(--secondary-color);
-    color: var(--bg-color);
     border: none;
-    border-radius: .5rem 0 .5rem 0;
-    padding: .7rem 1.5rem;
-    font-weight: bold;
-    border: 1px solid var(--button-color);
-    color: var(--primary-color);
+    padding: .3rem .8rem;
+    border-radius: .2rem;
+    color: var(--bg-color);
     cursor: pointer;
-    background: linear-gradient(to left, var(--button-color) 50%, var(--accent-orange) 50%) right;
+    background: linear-gradient(to left, var(--accent-orange) 50%, rgb(234, 85, 40) 50%) right;
     background-size: 200%;
     transition: .5s ease-out;
 }
 
 .projects-btn:hover {
     background-position: left;
+}
+
+.project-description {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: var(--bg-color);
+}
+
+.project-description > h3 {
+    font-size: 2rem;
+}
+
+.project-description > p {
+    color: black;
+}
+
+.techniques {
+    background: black;
+    padding: .1rem .2rem;
+    color: white;
+    margin: .1rem;
+    font-size: .8rem;
+}
+
+.tag-container {
+    margin: .5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ts {
+    color: #2f74c0;
+}
+
+.node {
+    color: #88b85c;
+}
+
+.js {
+    color: #ead41c;
 }

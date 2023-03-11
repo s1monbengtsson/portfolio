@@ -1,36 +1,35 @@
 /* styling for hero  */
 
 .hero {
+    height: 100vh;
+    width: 100%;
+    background-color: #222222;
     display: flex;
-    width: 80%;
+    justify-content: space-around;
     align-items: center;
-    height: 60vh;
-    margin: 10% auto;
-    max-width: 1300px;
+    max-width: 1500px
 }
 
 .hero-left {
-    width: 60%;
     text-align: center;
+    margin-left: 10%;
 }
 
-.hero-right {
-    width: 40%;
-    text-align: center;
-}
 
 .hero-img {
-    width: 80%;
+    height: 100vh;
     border-radius: 5px;
 }
 
 .hero-name {
-    font-size: 3.5rem;
+    font-size: 3rem;
+    color: white;
 }
 
 .hero-title {
-    font-size: 3rem;
+    font-size: 4.5rem;
     font-weight: bold;
+    color: white;
 }
 
 .hero-title>span {
@@ -50,10 +49,11 @@
 
 .contact-btn {
     background: var(--accent-orange);
-    color: var(--primary-color);
-    padding: .8rem;
+    color: var(--bg-color);
+    font-size: 1.5rem;
+    padding: .8rem 2rem;
     border-radius: .2rem;
-    background: linear-gradient(to left, var(--accent-orange) 50%, var(--accent-dark) 50%) right;
+    background: linear-gradient(to left, var(--accent-orange) 50%, rgb(234, 85, 40) 50%) right;
     background-size: 200%;
     transition: .5s ease-out;
 }
@@ -63,17 +63,3 @@
     color: var(--header-color);
 }
 
-.download-btn {
-    background: var(--button-color);
-    color: var(--primary-color);
-    padding: .8rem;
-    border-radius: .2rem;
-    background: linear-gradient(to left, var(--button-color) 50%, var(--accent-dark) 50%) right;
-    background-size: 200%;
-    transition: .5s ease-out;
-}
-
-.download-btn:hover {
-    background-position: left;
-    color: var(--header-color);
-}

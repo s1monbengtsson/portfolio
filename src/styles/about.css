@@ -1,11 +1,11 @@
 /* about section */
 
 .about-me {
-    background-color: var(--accent-dark);
+    background-color: white;
     width: 100%;
     max-width: 1500px;
     margin: 0 auto;
-    padding: 2rem 1rem;
+    padding: 2rem 0;
 }
 
 .about-heading {
@@ -22,7 +22,7 @@
 }
 
 .about-para p {
-    color: var(--header-color);
+    color: black;
 }
 
 .about-img {
