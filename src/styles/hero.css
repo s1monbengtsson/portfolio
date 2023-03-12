@@ -7,12 +7,21 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    max-width: 1500px
 }
 
 .hero-left {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    margin-left: 0;
+    z-index: 2;
     text-align: center;
-    margin-left: 10%;
+}
+
+.hero-right {
+    position: absolute;
+    right: 0;
+    z-index: 1;
 }
 
 
@@ -27,13 +36,13 @@
 }
 
 .hero-title {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     font-weight: bold;
     color: white;
 }
 
 .hero-title>span {
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
 .hero-btn-wrapper {
