@@ -38,8 +38,12 @@ p {
     --primary-color: #000000;
     --secondary-color: #4b4a4a;
     --button-color: #c2c1c1;
-    --accent-orange: #f97460;
+    --accent-orange: #645cb7;
     --accent-dark: #272936;
     --card-color: #9290901a;
     --heading-color: #747171c1;
 }
+
+/*
+#f97460;
+*/

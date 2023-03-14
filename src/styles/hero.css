@@ -62,13 +62,13 @@
     font-size: 1.5rem;
     padding: .8rem 2rem;
     border-radius: .2rem;
-    background: linear-gradient(to left, var(--accent-orange) 50%, rgb(234, 85, 40) 50%) right;
+    background: linear-gradient(to left, var(--accent-orange) 50%, white 50%) right;
     background-size: 200%;
     transition: .5s ease-out;
 }
 
 .contact-btn:hover {
     background-position: left;
-    color: var(--header-color);
+    color: var(--accent-orange);
 }
 
