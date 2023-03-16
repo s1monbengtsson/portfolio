@@ -3,6 +3,7 @@
 .about-me {
     background-color: #222222;
     width: 100%;
+    max-width: 1300px;
     margin: 0 auto;
     padding: 2rem 0;
 }
