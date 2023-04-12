@@ -202,12 +202,17 @@
         margin: 0 auto;
     }
 
-    .skills-card {
-        margin: .5rem auto;
+    .skills-card.primary,
+    .skills-card.secondary {
+        margin: .5rem 0;
     }
 
     .skills-card > img {
-        height: 32px;
+        height: 45px;
+    }
+
+    .skills-card.primary {
+        height: 150px;
     }
 
     .tag-container {

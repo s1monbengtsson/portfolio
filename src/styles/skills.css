@@ -37,7 +37,6 @@
 
 .skills-card {
     background-color: var(--card-color);
-    margin: 0 .5rem;
     height: 150px;
     width: 120px;
     display: flex;
@@ -48,6 +47,21 @@
     border: 1rem;
     box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
 }
+
+.skills-card.primary {
+    height: 200px;
+    margin: auto 0.2rem;
+}
+
+.skills-card.secondary {
+    margin: auto 0.2rem;
+}
+
+.skills-card.secondary > img {
+    height: 45px;
+}
+
+
 
 .skills-name {
     padding-top: 1.5rem;
