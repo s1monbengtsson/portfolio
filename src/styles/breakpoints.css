@@ -205,6 +205,7 @@
     .skills-card.primary,
     .skills-card.secondary {
         margin: .5rem 0;
+        width: 120px;
     }
 
     .skills-card > img {
