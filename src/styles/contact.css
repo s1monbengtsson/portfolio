@@ -1,40 +1,40 @@
 .contact {
-    width: 80%;
-    max-width: 1300px;
-    margin: 0 auto;
-    margin-top: 2rem;
-    padding-bottom: 2rem;
+	width: 80%;
+	max-width: 1300px;
+	margin: 0 auto;
+	margin-top: 2rem;
+	padding-bottom: 2rem;
 }
 
 .contact-header {
-    font-size: 3rem;
-    text-align: center;
-    color: white;
+	font-size: 3rem;
+	text-align: center;
 }
 
 .span-bg {
-    background-color: rgba(52, 51, 51, 0.664);
-    color: var(--accent-orange);
-    padding: 0 .5rem;
+	background-color: rgba(52, 51, 51, 0.664);
+	color: var(--accent-orange);
+	padding: 0 0.5rem;
 }
 
 .dot {
-    font-size: 5rem;
-    color: var(--accent-orange);
+	font-size: 5rem;
+	color: var(--accent-orange);
 }
 
 .information {
-    text-align: center;
-    margin-top: 1rem;
+	text-align: center;
+	margin-top: 1rem;
 }
 
 .some-icon {
-    margin: 0 .5rem;
+	margin: 0 0.5rem;
+	height: 32px;
 }
 
 .credits {
-    text-align: end;
-    font-size: .7rem;
-    margin-right: 0.3rem;
-    color: var(--heading-color);
+	text-align: end;
+	font-size: 0.7rem;
+	margin-right: 0.3rem;
+	color: var(--heading-color);
 }

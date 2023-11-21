@@ -1,84 +1,63 @@
-
-.work-container {
-    width: 100%;
-    max-width: 1300px;
-    padding-bottom: 2rem;
-    margin: 0 auto;
-    background-color: #222222;
-    }
-
-.projects-heading {
-    margin-bottom: 3rem;
-    text-align: end;
-    color: var(--heading-color);
-    font-size: 5rem;
+.projects-container {
+	margin-top: 1rem;
 }
 
-.card-wrapper {
-    width: 80%;
-    margin: 0 auto;
+.projects-heading {
+	color: var(--heading-color);
+	font-size: 24px;
 }
 
 .work {
-    width: 100%;
-    display: flex;
-    border: 1rem;
-    margin-bottom: 3rem;
+	display: flex;
+	margin-top: 1rem;
 }
 
 .work-image-wrapper {
-    width: 40%;
-    justify-content: flex-end;
+	margin: auto 0;
 }
 
 .project-heading {
-    font-size: 1.7rem;
-    font-weight: 400;
-    color: var(--accent-orange);
-
+	font-size: 1rem;
+	font-weight: 600;
+	color: var(--accent-orange);
 }
 
 .projects-img {
-    width: 100%;
-    max-height: 233px;
+	width: 250px;
+	aspect-ratio: 16/9;
+	max-height: 230px;
+	border: 1px solid rgba(0, 0, 0, 0.054);
 }
-
 
 .card-left {
-    width: 60%
+	width: 50%;
 }
-
 
 .work-description {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 60%;
-    height: 100%;
-    gap: .5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 60%;
+	height: 100%;
+	gap: 0.5rem;
 }
-
-.project-description {
-    color: #cdcccc;
-}
-
 
 .techniques {
-    background: rgba(0, 0, 0, 0.555);
-    padding: .1rem .2rem;
-    color: #cdcccc;
-    margin: .1rem;
-    font-size: .8rem;
+	background: black;
+	padding: 0.2rem;
+	margin: 0.1rem;
+	font-size: 0.8rem;
+	color: white;
 }
 
 .tag-container {
-    display: flex;
+	display: flex;
 }
 
-.projects-btn:nth-child(2){
-    margin-left: .5rem;
+.projects-btn:nth-child(2) {
+	margin-left: 0.5rem;
 }
 
 .project-link {
-    height: 24px;
+	height: 24px;
 }

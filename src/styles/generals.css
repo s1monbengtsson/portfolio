@@ -1,47 +1,42 @@
 /* General styling */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-   /* font-family: 'Inter', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/* font-family: 'Inter', sans-serif;
    */
-   font-family: 'Fira Sans Condensed', sans-serif;
-    scroll-behavior: smooth;
-    scroll-padding: 10%;
+	font-family: "Fira Sans Condensed", sans-serif;
+	scroll-behavior: smooth;
+	scroll-padding: 10%;
 }
 
-body {
-    height: 80vh;
-    width: 100%;
-    position: relative;
-    background-color: #222222;
+.content-wrapper {
+	width: 50%;
+	max-width: 900px;
+	margin: 0 auto;
 }
 
 a {
-    text-decoration: none;
-    font-weight: bold;
+	text-decoration: none;
+	font-weight: bold;
 }
 
 span {
-    color: var(--accent-color);
-}
-
-p {
-    color: white;
+	color: var(--accent-color);
 }
 
 .light-theme {
-    --header-color: #fefefe;
-    --bg-body: #e2e2e2;
-    --bg-color: #fefefe;
-    --primary-color: #000000;
-    --secondary-color: #4b4a4a;
-    --button-color: #c2c1c1;
-    --accent-orange: #645cb7;
-    --accent-dark: #272936;
-    --card-color: #9290901a;
-    --heading-color: #747171c1;
+	--header-color: #fefefe;
+	--bg-body: #e2e2e2;
+	--bg-color: #fefefe;
+	--primary-color: #000000;
+	--secondary-color: #4b4a4a;
+	--button-color: #c2c1c1;
+	--accent-orange: #645cb7;
+	--accent-dark: #272936;
+	--card-color: #9290901a;
+	--heading-color: #747171c1;
 }
 
 /*

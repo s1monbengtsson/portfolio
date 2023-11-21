@@ -11,128 +11,114 @@
         rel="stylesheet">
 </head>
 
-<body class="light-theme" id="body">
-    <div class="content-wrapper">
+<body id="body">
+    
+    <!-- header section -->
+    
+    
+        <header class="header" id="header">
+            <div class="logo-wrapper">
+                <span class="logo">Simon Bengtsson</span>
+            </div>
+            <nav class="navbar">
+                <ul class="menu">
+                    <li class="nav-items">
+                        <a href="#home" class="nav-item">Home</a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="#contact" class="nav-item">Contact</a>
+                    </li>
+                </ul>
+                
+                <button class="menu-wrapper"><img src="./src/icons/menu.png" alt="menu icon"
+                    id="menu-btn"></button>
+            </nav>
+        </header>
 
-            <!-- header section -->
-
-            <header class="header" id="header">
-                <div class="logo-wrapper">
-                    <h1 class="logo">Simon Bengtsson</h1>
-                </div>
-                <nav class="navbar">
-                    <ul class="menu">
-                        <li class="nav-items">
-                            <a href="#home" class="nav-item">Home</a>
-                        </li>
-                        <li class="nav-items">
-                            <a href="#about" class="nav-item">About</a>
-                        </li>
-                        <li class="nav-items">
-                            <a href="#skills" class="nav-item">Skills</a>
-                        </li>
-                        <li class="nav-items">
-                            <a href="#projects" class="nav-item">Projects</a>
-                        </li>
-                        <li class="nav-items">
-                            <a href="#contact" class="nav-item">Contact</a>
-                        </li>
-                    </ul>
-
-                    <button class="menu-wrapper"><img src="./src/icons/menu.png" alt="menu icon"
-                            id="menu-btn"></button>
-                </nav>
-            </header>
-
+        <div class="content-wrapper">
+        
             <!-- hero section -->
 
-            <div class="hero" id="home">
-                <div class="hero-left">
-                    <p>Hello,</p>
-                    <h2 class="hero-name">I'm Simon Bengtsson</h2>
-                    <h3 class="hero-title">Frontend <span class="span-bg">Developer</span></h3>
-                    <div class="hero-btn-wrapper">
-                        <a href="#projects" class="contact-btn">Discover More</a>
+            <main class="hero" id="home">
+                    <img src="/src/images/profile_picture.png" alt="Picture of me" class="hero-img"/>
+                    <div class="hero-header">
+                        <h1 class="about-heading">Simon Bengtsson</h1>
+                        <span>Malmö, Sweden</span>
                     </div>
-                </div>
-                <div class="hero-right">
-                    <img src="/src/images/profile_picture.png" alt="Picture of author" class="hero-img">
-                </div>
-            </div>
-
-            <main class="about-me" id="about">
-                <h2 class="about-heading">about me</h2>
-                <div class="about-para">
-                    <p>I am a 25 year old Frontend Developer from Malmö, Sweden. Currently doing my second term as a
-                        student at Medieinstitutet, Malmö.
-                        Got an unmatched passion for programming, more towards Frontend stuff. I love to design, build
-                        and just write code. Also likes
-                        football and coffee. </p>
-                </div>
-                
+                    
+                    <p>I am a passionate Software Developer with a 
+                        flair for problem-solving. I find joy in working 
+                        projects and delivering great solutions for the customers.
+                        Believing in continuous learning, I am always looking to 
+                        improve and sharpen my skills. Besides 
+                        my passion for coding I love travelling 
+                        and exploring. Always searching for new places
+                        to visit whenever I get the chance.
+                    </p>
+                    
+                    <section class="skills" id="skills">
+                        <h2 class="skills-heading">Tech stack</h2>
+                        <div class="skills-icons">
+                            <div class="skills-card" id="typescript" title="Typescript">
+                                <img src="./src/icons/typescript.svg" alt="typescript icon">
+                            </div>
+        
+                            <div class="skills-card" id="javascript" title="Javascript">
+                                <img src="./src/icons/javascript.svg" alt="javascript icon">
+                            </div>
+        
+                            <div class="skills-card" id="react" title="React">
+                                <img src="./src/icons/react.svg" alt="react icon">
+                            </div>
+        
+                            <div class="skills-card" id="redux" title="Redux">
+                                <img src="./src/icons/redux.svg" alt="redux icon">
+                            </div>
+        
+                            <div class="skills-card" id="node" title="Node">
+                                <img src="./src/icons/node-js.svg" alt="node.js icon">
+                            </div>
+        
+                            <div class="skills-card" id="mysql" title="MySQL">
+                                <img src="./src/icons/mysql.svg" alt="mysql icon">
+                            </div>
+        
+                        </div>
+                    </section>
             </main>
 
-            <section class="my-skills" id="skills">
-                <h2 class="skills-heading">skills</h2>
-                <div class="skills-icons">
-                    <h3 class="skills-sub-header">Frontend</h3>
-                    <div class="skills-front-end">
+                
 
-                        <div class="skills-card secondary" id="html">
-                            <img src="./src/icons/html-5.png" alt="html-5 icon">
-                            <p class="skills-name">HTML</p>
-                        </div>
 
-                        <div class="skills-card secondary" id="css">
-                            <img src="./src/icons/css-3.png" alt="css icon">
-                            <p class="skills-name">CSS</p>
-                        </div>
-
-                        <div class="skills-card primary" id="javascript">
-                            <img src="./src/icons/js.png" alt="javascript icon">
-                            <p class="skills-name">JavaScript</p>
-                        </div>
-
-                        <div class="skills-card primary" id="typescript">
-                            <img src="./src/icons/typescript.png" alt="typescript icon">
-                            <p class="skills-name">TypeScript</p>
-                        </div>
-
-                        <div class="skills-card secondary" id="sass">
-                            <img src="./src/icons/sass.png" alt="sass icon">
-                            <p class="skills-name">Sass</p>
-                        </div>
-
-                        <div class="skills-card secondary" id="bootstrap">
-                            <img src="./src/icons/bootstrap.png" alt="bootstrap icon">
-                            <p class="skills-name">Bootstrap</p>
-                        </div>
-                    </div>
-
-                    <h3 class="skills-sub-header">Backend</h3>
-                    <div class="skills-back-end">
-                        <div class="skills-card secondary" id="mysql">
-                            <img src="./src/icons/mysql.png" alt="mysql icon">
-                            <p class="skills-name">MySQL</p>
-                        </div>
-
-                        <div class="skills-card primary" id="node">
-                            <img src="./src/icons/node.png" alt="node.js icon">
-                            <p class="skills-name">Node.js</p>
-                        </div>
-
-                        <div class="skills-card secondary" id="mongodb">
-                            <img src="./src/icons/mongodb.png" alt="mongodb icon">
-                            <p class="skills-name">MongoDB</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="work-container" id="projects">
-                <h2 class="projects-heading">projects
-                </h2>
+            <section class="projects-container" id="projects">
+                <h3 class="projects-heading">Projects</h3>
                 <div class="card-wrapper">
+                    <div class="work">
+                        <div class="card-left">
+                            <div class="work-description">
+                                <h3 class="project-heading">CINEX MOVIES</h3>
+                                <div class="tag-container">
+                                    <p class="techniques ts">React</p><p class="techniques ts">Typescript</p><p class="techniques node">Node.js</p>
+                                </div>
+                                <p class="project-description">
+                                    Cinex is a movie web app where you can find the perfect movie for tonight. Search for movies,
+                                    actors, genres. Find something interesting? Add it to your watchlist!
+                                </p>
+                                <div class="card-footer">
+                                <a href="https://cinex-movies.netlify.app/" class="projects-btn" target="_blank">
+                                    <img src="./src/icons/website.png" alt="open page icon" class="project-link"/>
+                                </a>
+                                <a href="https://github.com/s1monbengtsson/cinex-movies" class="projects-btn" target="_blank">
+                                    <img src="./src/icons/github.svg" alt="github icon" class="project-link"/>
+                                </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="work-image-wrapper">
+                            <img src="./src/images/cinex.png" alt="webshop project" class="projects-img">
+                        </div>
+                    </div>
+
                     <div class="work">
                         <div class="card-left">
                             <div class="work-description">
@@ -142,9 +128,12 @@
                                 </div>
                                 <p class="project-description">Bortakväll is a candy webshop that lets you buy as much candy as you want, without paying.</p>
                                 <div class="card-footer">
-                                <a href="https://classy-twilight-f4bf2d.netlify.app/" class="projects-btn" target="_blank
-                                        "><img src="./src/icons/open_link.png" alt="open page icon" class="project-link"></a>
-                                <a href="https://github.com/s1monbengtsson/candyshop_api" class="projects-btn" target="_blank"><img src="./src/icons/github_light.png" alt="github icon"></a>
+                                <a href="https://classy-twilight-f4bf2d.netlify.app/" class="projects-btn" target="_blank">
+                                    <img src="./src/icons/website.png" alt="open page icon" class="project-link"/>
+                                </a>
+                                <a href="https://github.com/s1monbengtsson/candyshop_api" class="projects-btn" target="_blank">
+                                    <img src="./src/icons/github.svg" alt="github icon" class="project-link"/>
+                                </a>
                                 </div>
                             </div>
                         </div>
@@ -163,8 +152,8 @@
                                 <p class="project-description">Flag Guessr is a single player flag quiz game. Test your knowledge and quiz up to 145 flags.</p>
                                 <div class="card-footer">
                                 <a href="https://flag-guessr.netlify.app/" class="projects-btn" target="_blank
-                                        "><img src="./src/icons/open_link.png" alt="open page icon" class="project-link"></a>
-                                <a href="https://github.com/s1monbengtsson/flag-quiz" class="projects-btn" target="_blank"><img src="./src/icons/github_light.png" alt="github icon"></a>
+                                        "><img src="./src/icons/website.png" alt="open page icon" class="project-link"></a>
+                                <a href="https://github.com/s1monbengtsson/flag-quiz" class="projects-btn" target="_blank"><img src="./src/icons/github.svg" alt="github icon" class="project-link"></a>
                                 </div>
                             </div>
                         </div>
@@ -183,8 +172,8 @@
                                 <p class="project-description">Kill The Virus is a real time multiplayer game where the goal is to kill the virus, faster than your opponent.</p>
                                 <div class="card-footer">
                                 <a href="https://ktv-grupp10.netlify.app/" class="projects-btn" target="_blank
-                                        "><img src="./src/icons/open_link.png" alt="open page icon" class="project-link"></a>
-                                <a href="https://github.com/the-hive-resistance/fed22-api-ktv-grupp-10" class="projects-btn" target="_blank"><img src="./src/icons/github_light.png" alt="github icon"></a>
+                                        "><img src="./src/icons/website.png" alt="open page icon" class="project-link"></a>
+                                <a href="https://github.com/the-hive-resistance/fed22-api-ktv-grupp-10" class="projects-btn" target="_blank"><img src="./src/icons/github.svg" alt="github icon" class="project-link"></a>
                                 </div>
                             </div>
                         </div>
@@ -203,8 +192,8 @@
                                 <p class="project-description">Photo API is a backend only application that handles all your photos and albums. Safe login using JWT authentication.</p>
                                 <div class="card-footer">
                                 <a href="https://splendid-erin-sunbonnet.cyclic.app/" class="projects-btn" target="_blank
-                                        "><img src="./src/icons/open_link.png" alt="open page icon" class="project-link"></a>
-                                <a href="https://github.com/s1monbengtsson/photo-gallery-api" class="projects-btn" target="_blank"><img src="./src/icons/github_light.png" alt="github icon"></a>
+                                        "><img src="./src/icons/website.png" alt="open page icon" class="project-link"></a>
+                                <a href="https://github.com/s1monbengtsson/photo-gallery-api" class="projects-btn" target="_blank"><img src="./src/icons/github.svg" alt="github icon" class="project-link"></a>
                                 </div>
                             </div>
                         </div>
@@ -218,13 +207,13 @@
                             <div class="work-description">
                                 <h3 class="project-heading">React Calculator</h3>
                                 <div class="tag-container">
-                                    <p class="techniques react">React</p><p class="techniques js">Javascript</p><p class="techniques css">CSS</p>
+                                    <p class="techniques react">React</p><p class="techniques js">Javascript</p>
                                 </div>
                                 <p class="project-description">Simple yet fully functional calculator. Built as my first React application</p>
                                 <div class="card-footer">
                                 <a href="https://sparkling-taiyaki-e23d13.netlify.app/" class="projects-btn" target="_blank
-                                        "><img src="./src/icons/open_link.png" alt="open page icon" class="project-link"></a>
-                                <a href="https://github.com/s1monbengtsson/react-calculator" class="projects-btn" target="_blank"><img src="./src/icons/github_light.png" alt="github icon"></a>
+                                        "><img src="./src/icons/website.png" alt="open page icon" class="project-link"></a>
+                                <a href="https://github.com/s1monbengtsson/react-calculator" class="projects-btn" target="_blank"><img src="./src/icons/github.svg" alt="github icon" class="project-link"></a>
                                 </div>
                             </div>
                         </div>
@@ -236,13 +225,14 @@
             </section>
 
             <section class="contact" id="contact">
-                <h2 class="contact-header">Connect with <span class="span-bg">me</span><span class="dot">.</span></h2>
+                <h2 class="contact-header">Connect with me<span class="dot">.</span></h2>
                 <div class="information">
 
                     <a href="https://www.linkedin.com/in/simon-bengtsson-93253815b/" target="_blank"><img
-                            src="./src/icons/linkedin.png" alt="linkedin logo" class="some-icon"></a>
-                    <a href="https://github.com/s1monbengtsson" target="_blank"><img src="./src/icons/github_accent.png"
-                            alt="github logo" class="some-icon"></a>
+                            src="./src/icons/linkedin.svg" alt="linkedin logo" class="some-icon"></a>
+                    <a href="https://github.com/s1monbengtsson" target="_blank">
+                        <img src="./src/icons/github.svg" alt="github logo" class="some-icon">
+                    </a>
                     <p>or</p>
                     <p>dev.simon.bengtsson@gmail.com</p>
                 </div>

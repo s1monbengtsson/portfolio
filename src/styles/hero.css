@@ -1,76 +1,17 @@
-/* styling for hero  */
-
 .hero {
-    height: 100vh;
-    width: 100%;
-    max-width: 1300px;
-    margin: 0 auto;
-    background-color: #222222;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+	margin-top: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 1rem;
 }
 
-.hero-left {
-    position: absolute;
-    left: 10%;
-    top: 50%;
-    margin-left: 0;
-    z-index: 2;
-    text-align: center;
+.hero > p {
+	width: 80%;
 }
-
-.hero-right {
-    position: absolute;
-    right: 0;
-    z-index: 1;
-}
-
 
 .hero-img {
-    height: 100vh;
-    border-radius: 5px;
+	width: 100px;
+	aspect-ratio: 1;
+	border-radius: 50%;
 }
-
-.hero-name {
-    font-size: 3rem;
-    color: white;
-}
-
-.hero-title {
-    font-size: 3.5rem;
-    font-weight: bold;
-    color: white;
-}
-
-.hero-title>span {
-    font-size: 3.5rem;
-}
-
-.hero-btn-wrapper {
-    margin-top: 2rem;
-}
-
-.hero-left button {
-    border: none;
-    border-radius: .2rem;
-    padding: .9rem 1.5rem;
-    font-weight: bold;
-}
-
-.contact-btn {
-    background: var(--accent-orange);
-    color: var(--bg-color);
-    font-size: 1.5rem;
-    padding: .8rem 2rem;
-    border-radius: .2rem;
-    background: linear-gradient(to left, var(--accent-orange) 50%, white 50%) right;
-    background-size: 200%;
-    transition: .5s ease-out;
-}
-
-.contact-btn:hover {
-    background-position: left;
-    color: var(--accent-orange);
-}
-
